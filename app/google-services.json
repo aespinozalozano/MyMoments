@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "745681404337",
+    "firebase_url": "https://my-moments-2d455.firebaseio.com",
+    "project_id": "my-moments-2d455",
+    "storage_bucket": "my-moments-2d455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745681404337:android:cd12fed9663136c4",
+        "android_client_info": {
+          "package_name": "com.fernandopretell.mymoments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745681404337-ct181lent85bcblodthvbrdqeutcectm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fernandopretell.mymoments",
+            "certificate_hash": "bb8e8abe6d4894ee92168264eeea9a6cfe9a58b0"
+          }
+        },
+        {
+          "client_id": "745681404337-hhkjal5ugmp0q31omo0alulo4g27ul1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj-XaU_0ejl2vYYv4hVTqlXZmLc8Q0wrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745681404337-hhkjal5ugmp0q31omo0alulo4g27ul1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">My Moments</string>
+
+
+    <!--Drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Drawer Menus-->
+    <string name="menu_drawer_uno">Menu 1</string>
+    <string name="menu_drawer_dos">Menu 2</string>
+    <string name="menu_drawer_tres">Menu 3</string>
+    <string name="menu_drawer_cuatro">Acerca</string>
+    <string name="menu_drawer_cinco">Cerrar Sesion</string>
+
+    <!--App Message-->
+    <string name="progressdialog_cargando">Espere unos momentos</string>
+    <string name="error">Error</string>
+    <string name="version">"Version"</string>
+    <string name="network_not_connection">No hay conexion a Internet</string>
+
+    <!-- Notifications -->
+    <string name="notification_service_title_upload">Sincronizacion de Ordenes</string>
+    <string name="notification_service_title_download">Descarga de Ordenes</string>
+
+    <!-- Order -->
+    <string name="list_empty">No se encontraron elementos</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+
+    <string name="request_updates">Request updates</string>
+    <string name="remove_updates">Remove updates</string>
+    <string name="unknown_location">Unknown location</string>
+
+    <string name="batched_location_updates">Batched location updates</string>
+
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+
+    <string name="default_channel">Default channel</string>
+
+    <string name="error_enter_email">Por favor, escribe tu correo electrónico</string>
+    <string name="error_invalid_email">Correo electrónico no valido</string>
+
+    <!-- Dialog componente numerico-->
+    <string name="digits_zero">0</string>
+    <string name="digits_one">1</string>
+    <string name="digits_two">2</string>
+    <string name="digits_three">3</string>
+    <string name="digits_four">4</string>
+    <string name="digits_five">5</string>
+    <string name="digits_six">6</string>
+    <string name="digits_seven">7</string>
+    <string name="digits_eight">8</string>
+    <string name="digits_nine">9</string>
+    <string name="digits_plus">+</string>
+    <string name="digits_point">.</string>
+    <string name="digits_del">DEL</string>
+    <string name="digits_ok">OK</string>
+    <string name="digits_ini">^</string>
+
+
+
+    <string name="fontFamily">arial</string>
+
+    <string name="action_ubicacion">PEA 8</string>
+    <string name="action_transbordo"> </string>
+
+
+    <!--Pantalla seleccion de vehiculo-->
+    <string name="nombre_conductor">Nombre de Conductor</string>
+    <string name="vehiculo_tractor">Tractor</string>
+    <string name="vehiculo_camion">Camión</string>
+    <string name="subir_elementos">Subir Elementos</string>
+
+    <!--Pantalla seleccion tipo de vuelo-->
+    <string name="tipo_vuelo_salida">Vuelo Salida</string>
+    <string name="tipo_vuelo_llegada">Vuelo Llegada</string>
+
+    <!--Pantalla lista de vuelo-->
+    <string name="viaje_iniciar">Iniciar Viaje</string>
+    <string name="viaje_terminar">Terminar Viaje</string>
+    <string name="viaje_ini_descargar">Iniciar Descarga</string>
+    <string name="viaje_fin_descarga">Terminar Descarga</string>
+
+    <string name="seleccionar">Seleccionar</string>
+
+    <!-- motivos-->
+    <string name="rezago_motivo1">CAMBIO DE PEA</string>
+    <string name="rezago_motivo2">DISTRIBUCIÓN TARDÍA</string>
+    <string name="rezago_motivo3">FALTA DE TRACTORES</string>
+    <string name="rezago_motivo4">INCIDENCIA DE CARGA</string>
+    <string name="rezago_motivo5">OPERACIONES ALMACEN</string>
+    <string name="rezago_motivo6">OTROS</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="logo">Logo</string>
+    <string name="nombre_y_apellido">Nombre</string>
+    <string name="repetir_contrase_a">Repetir contraseña</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="registrar">Registrar</string>
+    <string name="publicar">Postear</string>
+    <string name="agrega_tu_descripcion_aqu">Agrega una descripción</string>
+
+</resources>

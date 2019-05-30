@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.newpost.NewPostActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarNuevaPublicacion"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarNuevaPublicacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:navigationIcon="?android:attr/homeAsUpIndicator"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
+        app:layout_constraintTop_toBottomOf="@+id/appbarNuevaPublicacion">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ibImage1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_image" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ibImage2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_image" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/back_edittext_con_borde"
+        android:gravity="start|top"
+        android:hint="@string/agrega_tu_descripcion_aqu"
+        android:inputType="textMultiLine"
+        android:maxHeight="200dp"
+        android:maxLength="500"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPublicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPublicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_rectangle_green"
+        android:text="@string/publicar"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ProgressBar
+        android:id="@+id/pbNuevaPublicacion"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbarNuevaPublicacion" />
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--size de text-->
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="textSizeLow">14sp</dimen>
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeHigh">18sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="space_between">4dp</dimen>
+
+    <!-- Espacios entre el general_container y el cardview -->
+    <dimen name="general_paddingtop">@dimen/activity_vertical_margin</dimen>
+    <dimen name="general_paddingbottom">@dimen/activity_vertical_margin</dimen>
+    <dimen name="general_paddingleft">@dimen/activity_horizontal_margin</dimen>
+    <dimen name="general_paddingright">@dimen/activity_horizontal_margin</dimen>
+
+    <!-- Espacios entre el cardview y el data_container -->
+    <dimen name="cardview_paddingtop">8dp</dimen>
+    <dimen name="cardview_paddingbottom">8dp</dimen>
+    <dimen name="cardview_paddingleft">8dp</dimen>
+    <dimen name="cardview_paddingright">8dp</dimen>
+
+    <dimen name="card_recycler_corner_radius">5dp</dimen>
+    <dimen name="card_recycler_elevation">4dp</dimen>
+
+    <!-- Espacios divisor entre cardviews -->
+    <dimen name="cardview_separation">@dimen/space_between</dimen>
+
+    <!-- Espacios divisor entre views de data -->
+    <dimen name="data_separation">4dp</dimen>
+
+    <!-- Espacios divisor entre labels y values-->
+    <dimen name="label_value_horizontal_separation">8dp</dimen>
+    <dimen name="label_value_vertical_separation">0dp</dimen>
+
+    <!-- LIST GMAIL-->
+    <dimen name="padding_list_row">16dp</dimen>
+    <dimen name="messages_padding_left">72dp</dimen>
+    <dimen name="icon_width_height">40dp</dimen>
+    <dimen name="msg_text_primary">16sp</dimen>
+    <dimen name="msg_text_secondary">14sp</dimen>
+    <dimen name="icon_star">25dp</dimen>
+    <dimen name="icon_text">22dp</dimen>
+    <dimen name="timestamp">12dp</dimen>
+    <dimen name="zero_horizontal_margin">0dp</dimen>
+    <dimen name="zero_horizontal_margin_big_activity">0dp</dimen>
+
+
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation_press">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="cardview_toolbar_spacer">16dp</dimen>
+
+    <dimen name="toolbar_double_height">112dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_header_height">256dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="bottom_bar_button_max_width">168dp</dimen>
+    <dimen name="bottom_bar_button_min_width">104dp</dimen>
+    <dimen name="bottom_bar_default_height">56dp</dimen>
+    <dimen name="bottom_bar_text_normal">8sp</dimen>
+    <dimen name="bottom_bar_text_pressed">10sp</dimen>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    tools:context=".feature.register.RegisterActivity"
+    android:theme="@style/AppTheme">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_red_500"
+            app:popupTheme="@style/AppTheme"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/et_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/back_edittext_usu_pas"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/nombre_y_apellido"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColorHint="@color/md_grey_800" />
+
+            <EditText
+                android:id="@+id/et_nacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/back_edittext_usu_pas"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/fecha_de_nacimiento"
+                android:inputType="date"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:textColorHint="@color/md_grey_800" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/back_edittext_usu_pas"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/correo_electr_nico"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColorHint="@color/md_grey_800" />
+
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/back_edittext_usu_pas"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/contrasena"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:padding="8dp"
+                android:textColorHint="@color/md_grey_800" />
+
+
+            <Button
+                android:id="@+id/btn_registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:alpha="0.87"
+                android:background="@drawable/back_btn_ingresar"
+                android:text="@string/registrar"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

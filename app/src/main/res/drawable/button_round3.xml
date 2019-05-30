@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/md_blue_grey_900">
+
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval"  >
+            <solid android:color="@color/md_blue_grey_200" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/md_blue_grey_200" />
+        </shape>
+    </item>
+
+    <item>
+        <selector>
+
+            <item android:state_selected="true">
+                <shape android:shape="oval"  >
+                    <solid android:color="@color/md_blue_grey_200" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@color/md_blue_grey_200" />
+                </shape>
+            </item>
+
+            <item android:state_activated="true">
+                <shape android:shape="oval"  >
+                    <solid android:color="@color/md_white_1000" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@color/colorAccent" />
+                </shape>
+            </item>
+
+            <item>
+                <shape android:shape="oval"  >
+                    <solid android:color="@color/md_white_1000" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@color/colorAccent" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape android:shape="oval"  >
+            <solid android:color="@color/colorPrimary" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorPrimaryDark" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval"  >
+            <solid android:color="@color/md_white_1000" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorAccent" />
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="oval"  >
+            <solid android:color="@color/md_white_1000" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorAccent" />
+        </shape>
+    </item>
+</selector>
+-->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/md_blue_grey_900">
+
+
+    <item android:id="@android:id/mask">
+        <color android:color="@color/md_blue_grey_200"/>
+    </item>
+
+    <item>
+        <selector>
+
+            <item android:state_selected="true">
+                <!--<color android:color="@color/colorAccent"/>-->
+                <shape android:shape="rectangle"  >
+                    <corners android:radius="10dip"  />
+                    <solid android:color="@color/colorAccent"  />
+
+                </shape>
+            </item>
+
+            <item android:state_activated="true">
+                <!--<color android:color="@color/colorAccent"/>-->
+                <shape android:shape="rectangle"  >
+                    <corners android:radius="10dip"  />
+                    <solid android:color="@color/colorAccent"  />
+
+                </shape>
+            </item>
+
+            <item>
+                <!--<color android:color="@color/colorAccent"/>-->
+                <shape android:shape="rectangle"  >
+                    <corners android:radius="10dip"  />
+                    <solid android:color="@color/colorAccent"  />
+
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"  >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="10dip"  />
+            <solid android:color="@color/colorAccent"  />
+
+        </shape>
+        <ripple android:color="@color/md_blue_grey_400"/>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="10dip" />
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="10dip" />
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+</selector>
+-->
