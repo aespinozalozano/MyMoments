@@ -3,9 +3,14 @@ package com.fernandopretell.mymoments.utils;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.CountDownTimer;
+import android.os.Environment;
+import android.os.StrictMode;
+import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
@@ -18,8 +23,12 @@ import android.widget.Toast;
 
 import com.fernandopretell.mymoments.R;
 
+import java.io.File;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 
 import retrofit2.Response;
 
@@ -189,5 +198,7 @@ public class Util {
             showMessage(context, new RuntimeException("Unexpected response " + response).getMessage(), Snackbar.LENGTH_INDEFINITE, SNACK);
         }
     }
+
+
 
 }

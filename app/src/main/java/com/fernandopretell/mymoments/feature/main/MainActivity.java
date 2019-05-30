@@ -38,7 +38,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * Created by Fernando Pretell .
+ * Created by Fernando Pretell on 29/08/2017.
  */
 
 public class MainActivity extends BaseActivity implements MainContract.MainView, View.OnClickListener {
@@ -70,7 +70,8 @@ public class MainActivity extends BaseActivity implements MainContract.MainView,
                     Configuration.CONNECTED_INTERNET = true;
                 }else{
                     Configuration.CONNECTED_INTERNET = false;
-                    showMessage("Perdiste conexión a internet");                }
+                    Toast.makeText(context, "Perdiste conexion a internet", Toast.LENGTH_SHORT).show();
+                }
             }
         }
     };
