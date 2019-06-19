@@ -140,7 +140,7 @@ public class MainActivity extends BaseActivity implements MainContract.MainView,
 
     @Override
     public void showListPostActivity(List<Place> placeList) {
-        LinearLayoutManager lim = new LinearLayoutManager(mActivity);
+        LinearLayoutManager lim = new LinearLayoutManager(getMActivity());
         rvListPost.setLayoutManager(lim);
         rvListPost.setAdapter(new PostsAdapter(placeList,MainActivity.this));
     }
